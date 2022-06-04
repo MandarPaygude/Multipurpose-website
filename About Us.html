@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        html {
+            box-sizing: border-box;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        .column {
+            float: left;
+            width: 33.33%;
+            margin-bottom: 16px;
+            padding: 0 8px;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin: 10px;
+        }
+
+
+        .about-section {
+            padding: 50px;
+            text-align: center;
+
+            background-color: #474e5d;
+            color: white;
+        }
+
+        .container {
+            padding: 0 16px;
+        }
+
+        .container::after,
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .title {
+            color: grey;
+        }
+
+        .button:hover {
+            background-color: #555;
+        }
+
+        @media screen and (max-width: 650px) {
+            .column {
+                width: 100%;
+                display: block;
+            }
+        }
+
+        .topright {
+            position: absolute;
+            top: 50px;
+            right: 30px;
+            font-size: 20px;
+        }
+
+        h3 {
+            text-indent: 30px;
+        }
+
+        h3 > a {
+            color: black;
+            text-decoration: none;
+        }
+
+        img {
+            border-radius: 45%;
+        }
+    </style>
+</head>
+
+<body>
+    <h3 class="topright" style="font-family:Arial, Helvetica, sans-serif">
+        <a href="../Main/main1.php">HOME&nbsp;&nbsp;&nbsp;|</a>
+        <a href="About Us.html">&nbsp;ABOUT US&nbsp;&nbsp;|</a>
+        <a href="../Feedback/feedback.html">&nbsp;FEEDBACK&nbsp;&nbsp;|</a>
+        <a href="../Main/logout.php">&nbsp;LOG-OUT&nbsp;</a>
+    </h3>
+    <h3 align="left">
+        <img src="logo7.png" width="150" height="140" style="border-radius: 0%;">
+    </h3>
+    <div class="about-section">
+        <img src="group img.jpg" alt="" align="left" width="300px" height="250px">
+        <h1 style="font-size: 300%;">About Us</h1>
+        <p style="font-size: 200%;">Hello, Welcome to our Website :)</p>
+        <p style="font-size: 150%;">In this website, You will find all the stuff like Games, Movies and career
+            counselling too.</p>
+
+    </div>
+
+    <h2 style="text-align:center;">We are a group of 5 people. We have done this project under the guidance of Rucha
+        Alandikar
+        Ma'am</h2>
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <div class="container">
+                    &nbsp;
+                    <h4 style="color:dodgerblue; font-size: 130%;">Languages used in this project are:
+                        <ol class="title">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>Python</li>
+                            <li>PHP</li>
+                            <li>MySQL</li>
+                        </ol>
+                    </h4>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <div class="container">
+                    &nbsp;
+                    <p style="font-size: 130%;color:lightseagreen;">We are studying Computer Engineering at P.E.S.
+                        Modern
+                        College of
+                        Engineering.</p>
+                    <p style="font-size: 130%;">Names of group members are:
+                    <ol style="font-size: 120%;">
+                        <li>Mandar Paygude.</li>
+                        <li>Vinayak Oza.</li>
+                        <li>Abhishek Chillal.</li>
+                        <li>Pranav Bakale.</li>
+                        <li>Safal Shahapure.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <div class="container">
+                    &nbsp;
+                    <h2 style="color:dodgerblue; font-size: 130%;">You can contact us at :
+                        <ol class="title">
+                            <li>pbakale21@gmail.com</li>
+                            <li>safalshahapure231@gmail.com</li>
+                            <li>vinayakoza2106@gmail.com</li>
+                            <li>abhishekchillal0439@gmail.com</li>
+                            <li>mcoepblproject@gmail.com</li>
+                        </ol>
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

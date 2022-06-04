@@ -1,0 +1,1 @@
+http://localhost:8080/phpmyadmin/index.php?route=/sql&server=1&db=login&table=log&pos=0

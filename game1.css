@@ -1,0 +1,178 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("background.jpg") ;
+	background-repeat: no-repeat;
+	background-size: cover;
+    height:100vh;
+    overflow:hidden;
+}
+
+nav{
+    margin: 0;
+    overflow:hidden;
+    text-align: center;
+}
+
+nav ul{
+    margin: 0;
+    float: right;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav > ul > li > a{
+    color:white;
+    display: block;
+    text-decoration: none;
+    margin-top: 5px;
+}
+.logo{
+    float: left;
+    position: relative;
+    left: 0;
+}
+.bg{
+    overflow: hidden;
+}
+
+h2{
+	color: white;
+	font-size: 50px;
+	animation: color-change 6s infinite;
+    margin-top: 0px;
+}
+p{
+	color: black;
+	font-size: 30px;
+    line-height: 0;
+    margin-bottom: 50px;
+}
+
+button{
+	width: 140px;
+	height: 60px;
+	color: white;
+	font-size:17px;
+	background: black;
+	border: 0;
+	border-radius: 30px;
+	outline: none;
+}
+
+.row{
+	display: flex;
+	align-items: center;
+	height: 70%;
+}
+
+.left{
+	width: 50%;
+	padding-left: 70px;
+}
+
+.right{
+    width:50%;
+    padding-left: 20px;
+}
+
+
+.one{
+    float: left;
+    width: 50%;
+}
+.one:hover{
+    transform: translateY(-10px);
+    transition: transform 0.5s;
+}
+figure > a > img{
+    border-radius: 30px; 
+    margin-top: 30px;
+    display: block;
+    max-width: 100%;
+}
+figcaption > h3{
+    text-align: center;
+    color: black;
+    width: max-content;
+    margin-left: 55px;   
+}
+
+.two{
+    float: left;
+    width: 50%;
+}
+.two:hover{
+    transform: translateY(-10px);
+    transition: transform 0.5s;
+}
+figure1 > a > img{
+    border-radius: 30px;
+    margin-left: 20px ;
+    margin-top: 30px;
+    display: block;
+    max-width: 100%;
+}
+figcaption1 > h3 {
+    text-align: center;
+    color: black;
+    width: max-content;
+    margin-left: 65px;
+}
+
+.three{
+    float: right;
+    width: 50%;
+}
+.three:hover{
+    transform: translateY(-10px);
+    transition: transform 0.5s;
+}
+figure2 > a >img{
+    border-radius: 30px;
+    margin-left: 20px;
+    max-width: 100%;
+}
+figcaption2 > h3 {
+    text-align: center;
+    color: white;
+    width: max-content;
+    margin-left: 90px;
+    top: 0%;
+}
+
+.four{
+    float: right;
+    width: 50%;
+}
+.four:hover{
+    transform: translateY(-10px);
+    transition: transform 0.5s;
+}
+figure3 > a >img{
+    border-radius: 30px;
+    margin-left: 40px;   
+    max-width: 100%;
+}
+figcaption3 > h3{
+    text-align: center;
+    color: white;
+    width: max-content;
+    margin-left: 110px;
+}
+
+
+@keyframes color-change{
+	0%{color:indigo;}
+	20%{color:darkblue;}
+	40%{color:darkred;}
+	60%{color:navy;}
+	80%{color:purple;}
+	100%{color:indigo;}
+}

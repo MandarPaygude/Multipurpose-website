@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FeedBack Page</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+.col-md-6{
+		background-color: #ebe8e8;
+}
+p{
+	font-size: 15px;
+
+}
+.head1{
+	background-color: #0485e0;
+	height: 50px;
+}
+.head1 h2{
+	color: #fff;
+	font-family: monospace;
+	line-height: 45px;
+	text-align: center;
+
+}
+#select1 h4 , #select2 h4 , #select3 h4{
+	background-color: #fff;
+	color: #000;
+	height: 40px;
+	text-align: center;
+	line-height: 38px;
+	cursor: pointer;
+	border:1px solid #ccc;
+
+}
+
+.btn-info{
+	background-color: #0485e0;
+	color: #fff;
+	font-family: monospace;
+	font-size: 17px;
+}
+
+</style>
+<script >
+$(document).ready(function(){
+  $("#select1").click(function(){
+    $("#select1 h4").css("background-color", "#0485e0");
+        $("#select1 h4").css("color", "#fff");
+      $("#select2 h4").css("background-color", "#fff");
+      $("#select2 h4").css("color", "#000");
+     $("#select3 h4").css("background-color", "#fff");
+      $("#select3 h4").css("color", "#000");
+       
+     
+  });
+});
+
+$(document).ready(function(){
+  $("#select2").click(function(){
+    $("#select2 h4").css("background-color", "#0485e0");
+    $("#select2 h4").css("color", "#fff");
+    $("#select1 h4").css("background-color", "#fff");
+      $("#select1 h4").css("color", "#000");
+     $("#select3 h4").css("background-color", "#fff");
+      $("#select3 h4").css("color", "#000");
+       
+  });
+});
+
+
+
+$(document).ready(function(){
+  $("#select3").click(function(){
+    $("#select3 h4").css("background-color", "#0485e0");
+    $("#select3 h4").css("color", "#fff");
+    $("#select1 h4").css("background-color", "#fff");
+      $("#select1 h4").css("color", "#000");
+     $("#select2 h4").css("background-color", "#fff");
+      $("#select2 h4").css("color", "#000");
+       
+  });
+});
+
+
+</script>
+<body>
+
+<div class="container">
+<form>
+<br>
+<div class="col-md-3"></div>
+
+
+<div class="col-md-6">
+	
+<div class="head1">
+		<h2>Send us Your feedback!</h2>
+</div>
+<br><br>
+	<p>Did you achieve your goal?</p>
+	<div class="row">
+		<div class="col-md-4" id="select1"><h4>Yes</h4> </div>
+				<div class="col-md-4" id="select2"><h4>Partially</h4> </div>
+						<div class="col-md-4" id="select3"><h4>No</h4> </div>
+	</div>
+<br>
+<p>What was the reason for your visit?</p>
+<div class="row">
+	<div class="col-md-12">
+		<select class="form-control"  >
+			<option selected disabled="">Select</option>
+			<option>Just For Fun</option>
+			<option>For Exploring</option>
+			<option>Time Pass</option>
+            <option>Other reason</option>
+		
+		</select>
+	</div>
+</div>
+
+
+<br>
+<p>What was the reason you could not achieve your goal?</p>
+<div class="row">
+	<div class="col-md-12">
+		<select class="form-control">
+			<option selected disabled="">Select</option>
+			<option>The form doesn't work well</option>
+			<option>I dont have a answer</option>
+            <option>Other reason</option>
+		
+		</select>
+	</div>
+</div>
+
+<br>
+<p>Would you like to improve our webpage giving some valuable Feedback?</p>
+<textarea class="form-control" required="" ></textarea>
+<br><br>
+<center>
+<button class="btn btn-info"><a href="../Main/main1.php">Submit</button>
+</center>
+<br><br>
+</form>
+</div>
+
+
+
+
+
+<div class="col-md-3"></div>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+	
+
+</body>
+</html>
